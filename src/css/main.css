@@ -32,6 +32,10 @@
 	font-family: 'Share Tech Mono', monospace;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 p{
 	padding: 6px;
 }
@@ -54,11 +58,14 @@ nav{
 }
 
 nav ul{
-	left: 91%;
+	right: 0%;
+	margin-right: 8px;
+	padding: 5px;
+	background-color: #aaa;
 
-	position: absolute;
-	font-size: 21px;
+	font-size: 20px;
 	list-style-type: none;
+	position: absolute;
 }
 
 a{
