@@ -1,0 +1,97 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+/* PSEUDO-ELEMENTS STYLES */
+
+::-webkit-scrollbar{
+	width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #444;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6a6a6a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+} 
+
+/* ANIMATIONS */
+
+
+
+/* TAG ONLY STYLES */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+p{
+	padding: 6px;
+}
+
+section{
+	color: #fff;
+	background: #999;
+	height: 100vh;
+}
+
+section h1{
+	padding: 8px;
+	text-align: center;
+	font-size: 34px;
+}
+
+nav{
+	top: 35%;
+	position: sticky;
+}
+
+nav ul{
+	left: 91%;
+
+	position: absolute;
+	font-size: 21px;
+	list-style-type: none;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover , a:active{
+	color: #444;
+}
+
+/* CLASS ONLY STYLES */
+
+
+
+/* ID ONLY STYLES */
+
+#title{
+	background-image: url('../img/bg-title.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	text-align: center;
+}
+
+#title h1{
+	padding: 20%;
+	font-size: 52px;
+	letter-spacing: 7px;
+}
+
+#content{
+	padding: 4px;
+	display: inline-flex;
+}
+
