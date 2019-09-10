@@ -41,13 +41,13 @@ p{
 }
 
 section{
-	color: #fff;
-	background: #999;
+	color: #333;
+	background: #eee;
 	height: 100vh;
 }
 
 section h1{
-	padding: 8px;
+	padding: 12px;
 	text-align: center;
 	font-size: 34px;
 }
@@ -58,23 +58,36 @@ nav{
 }
 
 nav ul{
+	opacity: 0;
+	transition: opacity .4s ease-in-out;
+
 	right: 0%;
 	margin-right: 8px;
 	padding: 5px;
-	background-color: #aaa;
 
 	font-size: 20px;
 	list-style-type: none;
 	position: absolute;
 }
 
+nav ul:hover{
+	opacity: 1;
+}
+
+nav ul li{}
+
 a{
-	color: #fff;
+	color: #222;
 	text-decoration: none;
 }
 
 a:hover , a:active{
 	color: #444;
+}
+
+footer{
+	height: 15vh;
+	background-color: #444;
 }
 
 /* CLASS ONLY STYLES */
@@ -93,6 +106,7 @@ a:hover , a:active{
 
 #title h1{
 	padding: 20%;
+	color: #fff;
 	font-size: 52px;
 	letter-spacing: 7px;
 }
@@ -100,5 +114,6 @@ a:hover , a:active{
 #content{
 	padding: 4px;
 	display: inline-flex;
+	font-size: 20px;
 }
 
