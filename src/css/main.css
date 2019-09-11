@@ -36,10 +36,6 @@ html{
 	scroll-behavior: smooth;
 }
 
-p{
-	padding: 6px;
-}
-
 /* navbar */
 
 nav{
@@ -139,7 +135,7 @@ footer{
 }
 
 #content{
-	padding: 4px;
+	margin: 12px;
 	display: inline-flex;
 	font-size: 20px;
 }
