@@ -5,7 +5,7 @@
 /* PSEUDO-ELEMENTS STYLES */
 
 ::-webkit-scrollbar{
-	width: 7px;
+	width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -40,51 +40,74 @@ p{
 	padding: 6px;
 }
 
+/* navbar */
+
+nav{
+	opacity: 0;
+	transition: opacity .5s ease-out;
+	width: 100%;
+	height: 9vh;
+	position: fixed;
+	display: flex;
+	
+	color: #eee;
+	background-color: rgba(70,70,70,0.8);
+	
+	z-index: 1;
+}
+
+nav:hover{
+	opacity: 1;
+}
+
+nav *{
+	padding: 12px;
+}
+
+.brand{
+	font-size: 28px;
+	letter-spacing: 3px;
+	align-self: center; 
+}
+
+#menu{
+	margin-left: auto;
+	font-size: 21px;
+	display: inline-flex;
+	list-style-type: none;
+}
+
+#menu li{
+	display: flex;
+	float: right;
+	align-self: center;
+}
+
+/* section */
 section{
+	padding-top: 10px;
 	color: #333;
 	background: #eee;
 	height: 100vh;
 }
 
 section h1{
-	padding: 12px;
+	padding: 18px 0 9px 0;
 	text-align: center;
 	font-size: 34px;
 }
 
-nav{
-	top: 35%;
-	position: sticky;
-}
-
-nav ul{
-	opacity: 0;
-	transition: opacity .4s ease-in-out;
-
-	right: 0%;
-	margin-right: 8px;
-	padding: 5px;
-
-	font-size: 20px;
-	list-style-type: none;
-	position: absolute;
-}
-
-nav ul:hover{
-	opacity: 1;
-}
-
-nav ul li{}
-
+/* link */
 a{
-	color: #222;
+	color: #eee;
 	text-decoration: none;
 }
 
 a:hover , a:active{
-	color: #444;
+	color: #bbb;
 }
 
+/* footer */
 footer{
 	height: 15vh;
 	background-color: #444;
@@ -100,15 +123,19 @@ footer{
 	background-image: url('../img/bg-title.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
-
 	text-align: center;
 }
 
 #title h1{
+	margin: auto;
 	padding: 20%;
+	position: static;
+
+	width: auto;
 	color: #fff;
-	font-size: 52px;
-	letter-spacing: 7px;
+	font-size: 60px;
+	letter-spacing: 8px;
+	z-index: 1;
 }
 
 #content{
