@@ -42,12 +42,12 @@ nav{
 	opacity: 0;
 	transition: opacity .5s ease-out;
 	width: 100%;
-	height: 9vh;
+	height: 11vh;
 	position: fixed;
 	display: flex;
 	
 	color: #eee;
-	background-color: rgba(70,70,70,0.8);
+	background-color: rgba(70,70,70,0.56);
 	
 	z-index: 1;
 }
